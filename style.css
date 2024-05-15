@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    background: url(images/desktop/image-hero.jpg);
+    padding: 30px 90px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52%;
+}
+.nav1 ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.moblie{
+    display: none;
+}
+.toggle{
+    display: none;
+}
+.content1{
+    border: 1px solid white;
+    margin-top: 90px;
+    width: 32%;
+    padding: 20px 20px;
+}
+.content1 p{
+    color: white;
+    width: 19vw;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.sec2{
+    padding: 30px 90px;
+    margin-top: 60px;
+    display: flex;
+    position: relative;
+}
+.sec2 img{
+    height: 400px;
+}
+.content2{
+    background-color: white;
+    padding: 40px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50vh;
+    position: relative;
+    top: 150px;
+    right: 130px;
+}
+.content2 h1{
+    width: 20vw;
+    font-size: 30px;
+}
+.content2 p{
+    width: 24vw;
+    font-size: 13px;
+}
+.sec3{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+}
+.branch1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30%;
+    width: 100%;
+}
+.branch1 button{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    width: 10vw;
+    height: 35px; 
+}
+.branch2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.branch2 h1{
+    position: relative;
+    top: 60%;
+    left: 20px;
+}
+.mage1{
+    background: url(images/desktop/image-deep-earth.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.mage2{
+    background: url(images/desktop/image-night-arcade.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mage3{
+    background: url(images/desktop/image-soccer-team.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mage4{
+    background: url(images/desktop/image-grid.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.deep2{
+    display: flex;
+}
+.deep2 h1{
+    position: relative;
+    top: 60%;
+    left: 20px;
+}
+.mage5{
+    background: url(images/desktop/image-from-above.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mage6{
+    background: url(images/desktop/image-pocket-borealis.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mage7{
+    background: url(images/desktop/image-curiosity.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mage8{
+    background: url(images/desktop/image-fisheye.jpg);
+    background-size: 40vh;
+    height: 80vh;
+    width: 21vw;
+    background-repeat: no-repeat;
+    color: white;
+}
+.btn{
+    display: none;
+}
+.footer{
+    background-color: black;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 28%;
+}
+.bar{
+    padding: 30px 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bar ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+.media{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imag{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+@media screen and (max-width:950px) {
+    .nav1 ul{
+        display: none;
+    }
+    .moblie{
+        display: block;
+    }
+    .toggle{
+        display: block;
+    }
+    .sec1{
+        background: url(images/mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav1{
+        gap: 50%;
+    }
+    .content1{
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+    .content1 p{        font-size: 35px;
+        font-weight: lighter;
+    }
+    .sec2{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .sec2 img{
+        height: 200px;
+    }
+    .content2{
+        top: 0px;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .content2 h1{
+        font-size: 30px;
+        width: 50vw;
+    }
+    .content2 p{
+        text-align: center;
+        font-size: 17px;
+        width: 75vw;
+    }
+    .sec3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .branch1{
+        
+    }
+    .branch1 button{
+        display: none;
+    }
+    .branch2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .branch2 h1{
+        position: relative;
+        top: 40%;
+    }
+    .mage1{
+        background: url(images/mobile/image-deep-earth.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .mage2{
+        background: url(images/mobile/image-night-arcade.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .mage3{
+        background: url(images/mobile/image-soccer-team.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .mage4{
+        background: url(images/mobile/image-grid.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .deep2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    
+    .deep2 h1{
+        position: relative;
+        top: 40%;
+    }
+    .mage5{
+        background: url(images/mobile/image-from-above.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .mage6{
+        background: url(images/mobile/image-pocket-borealis.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .mage7{
+        background: url(images/mobile/image-curiosity.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .mage8{
+        background: url(images/mobile/image-fisheye.jpg);
+        background-size: cover;
+        width: 60vw;
+        height: 17vh;
+    }
+    .btn{
+        display: block;
+        border: 2px solid black;
+        background-color: white;
+        font-size: 15px;
+        width: 22vw;
+        height: 35px; 
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+    .bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
