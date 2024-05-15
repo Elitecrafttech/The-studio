@@ -11,19 +11,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 52%;
+    gap: 48%;
+}
+.ham{
+    display: none;
 }
 .nav1 ul{
     color: white;
     list-style: none;
     display: flex;
     gap: 30px;
-}
-.moblie{
-    display: none;
-}
-.toggle{
-    display: none;
 }
 .content1{
     border: 1px solid white;
@@ -210,10 +207,7 @@
     .nav1 ul{
         display: none;
     }
-    .moblie{
-        display: block;
-    }
-    .toggle{
+    .ham{
         display: block;
     }
     .sec1{
