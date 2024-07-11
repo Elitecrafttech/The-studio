@@ -5,6 +5,9 @@
 }
 .sec1{
     background: url(images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     padding: 30px 90px;
 }
 .nav1{
@@ -204,13 +207,15 @@
     justify-content: end;
     gap: 20px;
 }
-
+.tg{
+    display: none;
+}
 @media screen and (max-width:950px) {
     .nav1 ul{
         display: none;
     }
     .ham{
-        display: block;
+        display: flex;
     }
     .sec1{
         background: url(images/mobile/image-hero.jpg);
@@ -221,9 +226,41 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        /* width: 100%; */
     }
     .nav1{
         gap: 50%;
+    }
+    .tg{
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        height: 0vh;
+        list-style: none;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        align-items: center;
+        transition: 3s ease-in-out;
+        width: 100%;
+        gap: 10px;
+    }
+    .open{
+        display: flex;
+    }
+    .appear{
+        height: 20vh;
+    }
+    .close{
+        display: none;
+    }
+    .pop{
+        display: flex;
+    }
+    .vanish{
+        display: none;
     }
     .content1{
         display: flex;
